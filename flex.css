@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 800px;
+    width: 800px;
+    margin: 50px auto;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: reverse;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#box-1{
+
+    background-color: red;
+}
+
+
+
+

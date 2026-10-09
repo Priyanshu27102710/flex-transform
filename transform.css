@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 800px;
+    width: 800px;
+    margin: 50px auto;
+    border: 2px solid black;
+
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+.box:hover{
+    background-color: red;
+    transition: 0.5s;
+
+    /* transform:scale(1.5); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+
+    /* transform:skew(45deg); */
+    /* transform:skewX(45deg) */
+    /* transform:skewY(45deg); */
+
+    /* transform: rotate(45deg); */
+    /* transform:rotateX(360deg); */
+    transform:rotateY(360deg);
+    border-radius: 50%;
+
+}
